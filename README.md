@@ -4,7 +4,7 @@ A base image with the Android SDK and build tools installed. Allows you to build
 
 ## Example 
 
-To build the app in the curent directory, you 
+To build the app in the current directory, you 
 
 ```shell
 docker run -t -i -v $PWD:/myapp -w /myapp chetbox/docker-android-sdk gradle build
