@@ -1,4 +1,4 @@
-IMAGE ubuntu:14.04
+FROM ubuntu:14.04
 MAINTAINER chetbox
 
 RUN dpkg --add-architecture i386
